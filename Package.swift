@@ -12,11 +12,11 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-       
+        
     ],
     targets: [
         .binaryTarget(name: "herow_sdk_ios",
                       url: "https://github.com/herowio/herow-sdk-ios/releases/download/v7.0.0/herow_sdk_ios.xcframework.zip",
-                      checksum: "3041572ac16b8f8a91d2d635f630f432fc5f3709c3d3928f36c5d816d31ff792"),
+                      checksum: "8340d84751f29e085ba4013875e44b4a56726ac4c199532c7f50a20f70c13ff0"),
     ]
 )
