@@ -12,7 +12,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(name "cocoaLumberJack",url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", from: "3.7.0"),
+        .package(name: "cocoaLumberJack",url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", from: "3.7.0"),
     ],
     targets: [
     .target(name: "Dependencies", dependencies: ["cocoaLumberJack"], path: "Dependencies"),
