@@ -11,13 +11,13 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-       
+        // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
         .binaryTarget(name: "herow_sdk_ios",
                       url: "https://github.com/herowio/herow-sdk-ios/releases/download/v7.0.0/herow_sdk_ios.xcframework.zip",
-                      checksum: "e2d206a51b018e76f22b6e526d4b7bf56be2afc74070c637195f7aa6e10cf2a3"),
-        dependencies: [
+                      checksum: "dd82407b913a96ef90d9f2007ce43b39d06ac702e6c47c7544ce980bc63a5f78"),
+                      dependencies: [
                    .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", from: "3.7.0"),
                 ],
     ]
