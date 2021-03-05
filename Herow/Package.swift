@@ -8,6 +8,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Herow",
+
             targets: ["herow_sdk_ios","Dependencies"]),
     ],
     dependencies: [
