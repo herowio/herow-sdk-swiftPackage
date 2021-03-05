@@ -7,15 +7,14 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "herow_sdk_ios",
-            targets: ["herow_sdk_ios","Dependencies"]),
+            targets: ["herow_sdk_ios"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(name "cocoaLumberJack",url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", from: "3.7.0"),
+       
     ],
     targets: [
-    .target(name: "Dependencies", dependencies: ["cocoaLumberJack"], path: "Dependencies")
         .binaryTarget(name: "herow_sdk_ios",
                       url: "https://github.com/herowio/herow-sdk-ios/releases/download/v7.0.0/herow_sdk_ios.xcframework.zip",
                       checksum: "3041572ac16b8f8a91d2d635f630f432fc5f3709c3d3928f36c5d816d31ff792"),
