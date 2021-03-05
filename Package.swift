@@ -15,7 +15,7 @@ let package = Package(
         .package(name "cocoaLumberJack",url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", from: "3.7.0"),
     ],
     targets: [
-    .target(name: "Dependencies", dependencies: ["cocoaLumberJack"], path: "Dependencies")
+    .target(name: "Dependencies", dependencies: ["cocoaLumberJack"], path: "Dependencies"),
         .binaryTarget(name: "herow_sdk_ios",
                       url: "https://github.com/herowio/herow-sdk-ios/releases/download/v7.0.0/herow_sdk_ios.xcframework.zip",
                       checksum: "478625f66c3ee91f43c04ea1d455f1bf5680806d67fc3814a77a5f236b9c8bb3"),
