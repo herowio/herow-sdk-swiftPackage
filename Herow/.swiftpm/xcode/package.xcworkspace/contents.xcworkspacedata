@@ -4,4 +4,42 @@
    <FileRef
       location = "self:">
    </FileRef>
+   <FileRef
+      location = "group:../../Package.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../../README.md">
+   </FileRef>
+   <Group
+      location = "group:../../Sources"
+      name = "Sources">
+      <Group
+         location = "container:"
+         name = "Dependencies">
+      </Group>
+      <Group
+         location = "group:Herow"
+         name = "Herow">
+         <FileRef
+            location = "group:Herow.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:../../Tests"
+      name = "Tests">
+      <Group
+         location = "group:HerowTests"
+         name = "HerowTests">
+         <FileRef
+            location = "group:XCTestManifests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HerowTests.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:LinuxMain.swift">
+      </FileRef>
+   </Group>
 </Workspace>
