@@ -17,6 +17,6 @@ let package = Package(
     targets: [
         .binaryTarget(name: "herow_sdk_ios",
                       url: "https://github.com/herowio/herow-sdk-ios/releases/download/v7.1.0/herow_sdk_ios.xcframework.zip",
-                      checksum: "bf114620eae08c2fbb8e13a30f2af8b44898c919df991df5ab1aa394483268e3"),
+                      checksum: "e2402a4c34c5dd1aeb35dadcc5a750b4ab0ae7fd002c1b3f52050da7742d271c"),
     ]
 )
